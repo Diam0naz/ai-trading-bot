@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+.env
+*.joblib
+
+# Bot secrets — never commit these
+bot/.env
+
+# Logs
+logs/
+*.log
+*.log.gz
+
+# SQLite (DB contains trade data — keep out of git)
+db/trading_bot.db
+db/trading_bot.db-shm
+db/trading_bot.db-wal
+
+# Next.js
+frontend/.next/
+frontend/node_modules/
+frontend/.env.local
+
+# pyenv
+.python-version
+
+# Jupyter
+notebooks/.ipynb_checkpoints/
+notebooks/signal_analysis.png
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,15 @@
+pandas-ta==0.4.71b0
+ccxt==4.3.79
+requests>=2.31.0
+pandas>=2.2.2
+numpy>=2.2.6
+xgboost==2.0.3
+scikit-learn>=1.4.2
+sqlalchemy>=2.0.30
+apscheduler==3.10.4
+python-telegram-bot==21.3
+python-dotenv==1.0.1
+joblib==1.4.2
+loguru==0.7.2
+jupyter==1.0.0
+matplotlib>=3.9.0
